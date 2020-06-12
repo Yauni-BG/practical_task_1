@@ -1,0 +1,79 @@
+.wrapper{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.circle{
+    width: 22%;
+    height: 22%;
+    margin: 0 auto;
+    background-color: #ee220c;
+    border-radius: 50%;
+    position: absolute;
+}   
+
+.circle--topleft{
+    top: 19%;
+    left: 19%;
+}
+
+.circle--topleft:hover{
+    background-color: tomato;  
+    z-index: 10; 
+}
+
+.circle--topright{
+    top: 19%;
+    right: 19%;
+}
+
+.circle--topright:hover{
+    background-color: yellow;
+    z-index: 10; 
+}
+
+.circle--bottomleft{
+    bottom: 19%;
+    left: 19%;
+}
+
+.circle--bottomleft:hover{
+    background-color: violet;
+    z-index: 10; 
+}
+
+.circle--bottomright{
+    bottom: 19%;
+    right: 19%;
+}
+
+.circle--bottomright:hover{
+    background-color: teal;
+    z-index: 10; 
+}
+
+.squarebig{
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #00a2ff;
+}
+
+.squarebig:hover{
+    z-index: 10; 
+}
+
+.squarelittle{
+    top: 39%;
+    left: 39%;
+    position: absolute;
+    width: 22%;
+    height: 22%;
+    background-color: rgb(248, 186, 0);
+    border-radius: 15%;
+}
