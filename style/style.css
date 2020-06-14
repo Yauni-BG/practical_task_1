@@ -1,18 +1,18 @@
-.wrapper{
+..wrapper{
     position: relative;
     width: 1000px;
     height: 1000px;
-    background-color: #ffffff;
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
 .circle{
+    position: absolute;
     width: 22%;
     height: 22%;
+    border-radius: 50%;
     margin: 0 auto;
     background-color: #ee220c;
-    border-radius: 50%;
-    position: absolute;
 }   
 
 .circle--topleft{
@@ -21,8 +21,8 @@
 }
 
 .circle--topleft:hover{
-    background-color: tomato;  
     z-index: 10; 
+    background-color: tomato;  
 }
 
 .circle--topright{
@@ -31,8 +31,8 @@
 }
 
 .circle--topright:hover{
-    background-color: yellow;
     z-index: 10; 
+    background-color: yellow;
 }
 
 .circle--bottomleft{
@@ -41,8 +41,8 @@
 }
 
 .circle--bottomleft:hover{
-    background-color: violet;
     z-index: 10; 
+    background-color: violet;
 }
 
 .circle--bottomright{
@@ -51,14 +51,14 @@
 }
 
 .circle--bottomright:hover{
-    background-color: teal;
     z-index: 10; 
+    background-color: teal;
 }
 
 .squarebig{
+    position: absolute;
     top: 30%;
     left: 30%;
-    position: absolute;
     width: 40%;
     height: 40%;
     background-color: #00a2ff;
@@ -66,14 +66,16 @@
 
 .squarebig:hover{
     z-index: 10; 
+    background-color: violet;
+
 }
 
 .squarelittle{
+    position: absolute;
     top: 39%;
     left: 39%;
-    position: absolute;
     width: 22%;
     height: 22%;
-    background-color: rgb(248, 186, 0);
     border-radius: 15%;
+    background-color:#f8ba00
 }
